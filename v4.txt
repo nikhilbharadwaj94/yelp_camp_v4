@@ -1,0 +1,11 @@
+
+
+>>another imporatnat concept that i came across was "NESTED ROUTES".
+ for example:-
+ when we want to add new comments it dosent make sense to create a route /comments/new
+
+ Instead it will make more sense to keep the comment associated with a particular post.
+ So in this case we will create it as /campgrounds/:id/comments/new
+
+ >>We are also creating 2 folders inside views i.e. campgrounds and comments
+ 
